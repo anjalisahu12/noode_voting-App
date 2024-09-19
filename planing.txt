@@ -1,0 +1,22 @@
+Routes
+
+User Authentication:
+/signup: POST - create new User
+/login: Post - login in existing accessible
+
+Voting:
+/candidates: GET - get list of candidates.
+/vate/:candidateId: POST= vote for specific candidates
+
+Vote Counts: 
+/vote/counts:Get -  get the list of candidates with their currusponding vote counts
+
+User Profile:
+/profile: GET - Get the users profile information
+/profile/password:/ PUT-UPDATE password
+
+Admin
+/candidate: POST - create candidate 
+/candidate/:candidateId :PUT - update existing candidate
+/candidate/:candidateId :DELETE - delete existing candidate
+
